@@ -1,0 +1,133 @@
+#photo{
+    font-size: calc(1.8vw);
+}
+#photo{
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    border-radius: 90%;
+
+}
+.focus:hover{
+    background-color: black;
+    color: red;
+    transition: 0.5s;
+    cursor:pointer;
+
+
+}
+.bz:hover{
+    background-color: black;
+    color: red;
+    transition: 0.5s;
+    cursor:pointer;
+
+}
+.butt{ border:2px solid blue;
+        padding: 10px 0;
+        width: 150px;
+        font-size: 20px;
+        border-radius:10px;
+        font-weight: 700;
+        color:black;
+        margin:0 auto 300px;
+        cursor:pointer;
+        transition: 0.5s;}
+
+        .focus:active{
+            background-color:black;
+            color: green;
+        transition: 0.5s;
+        cursor:pointer;
+        }
+
+        .bz:active{
+            background-color: black;
+            color: green;
+            transition: 0.5s;
+            cursor:pointer;}
+        .dd:focus{
+         background-color:rgb(236, 9, 9);
+            color:black;
+        }
+        .dd{
+            border:2px solid blue;
+            font-size: 24px;
+            border-radius:10px;
+        }
+
+        
+.butt:hover{
+    background-color:green;
+    color:black;
+}
+
+@media (max-width:1400px) {
+    body{background-color:burlywood;
+    }  
+#photo{
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    border-radius: 90%;
+}
+ }
+
+ @media(max-width:375px){
+    body{background-color:brown}
+
+    #photo{
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+        border-radius: 90%;
+    }
+ }
+ .sp:hover{
+background-color:black;
+color:red;
+transition: 0.5s;
+cursor:pointer;
+}
+.sp:active{
+    background-color:black;
+    color:green;
+    transition: 0.5s;
+    cursor:pointer;
+    }
+
+    .page{
+        font-size:large;
+        background-color:black;
+        color:orange;
+    }
+    .page:hover{
+        font-size:large;
+        background-color:black;
+        color:blueviolet;
+    }
+    .page:active{
+        font-size:large;
+        background-color:black;
+        color:green;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .links{
+        font-size: large;
+        background-color:black;
+        color:green;
+    }
+    .links:hover{
+        font-size: large;
+        background-color:black;
+        color:yellowgreen;
+    }
+    .links:active{
+        font-size: large;
+        background-color:black;
+        color:orange;
+    }
+    .page{
+        border-radius:70%;
+    }
