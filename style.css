@@ -21,6 +21,7 @@
     color: red;
     transition: 0.5s;
     cursor:pointer;
+    border:2px solid yellow;
 
 }
 .butt{ border:2px solid blue;
